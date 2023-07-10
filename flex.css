@@ -1,0 +1,9 @@
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid red ;
+    /* align-items: center;/*align items vertical borabor kaj kore r erjonno height use korte hobe nahole kaj bujha jabena */
+    flex-direction: row-reverse;
+    height: 100vh;
+}

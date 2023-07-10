@@ -1,0 +1,181 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav-container
+{
+  display: flex;
+  padding-top: 20px;/*padding bhitore kaj korbe container er*/
+   /*margin-top: 20px;margin bahire kaj korbe body shoho*/
+   background-color: gray;
+   justify-content: space-around;
+   align-items: center;
+}
+.menus
+{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+    color:red
+}
+.banner-container
+{
+    height: 100vh;
+    background-image:url(./image/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.primary
+{
+    color: red;
+}
+.title
+{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description
+{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    /*text-align: center;width dile margin auto koe dile center e chole jabe*/
+    margin: auto;
+}
+.btn
+{
+    padding: 12px 20px;
+    border:none ;
+    background-color: white;
+    color: black;
+
+}
+.bg-primary
+{
+    background-color: rgb(214, 67, 13);
+    color: white;
+}
+.service-container
+{
+    height: 100vh;
+    background-image:url(./image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    color: white;
+    display: flex;
+    padding:20px;
+}
+.icon 
+{
+   width: 70px; 
+   margin-bottom: 20px;
+}
+.box
+{
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    height: 100px;
+    padding:50px;
+    background-color:white;
+    color: black;
+}
+.service-description
+{
+    width: 50%;
+}
+.first-two-box
+{
+    display: flex;
+    margin-top: 5px;
+    gap:3px;
+}
+.author-img
+{
+   width:70px;
+   height: 70px;
+   border-radius: 35px;
+ 
+}
+.author-container
+{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.profile-container
+{
+   display: flex; 
+   align-items: center;
+   gap: 5px;
+   border-right: 2px solid red;
+   padding-right: 20px;
+}
+.phone-call
+{
+    display: flex;
+    align-items: center;
+}
+.appointment-container
+{
+    display:flex;
+    justify-content: space-around;
+    width: 70%;
+    margin:auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top-30px;
+    align-items: center;
+}
+.blog-container
+{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: grey;
+}
+.blog-title
+{
+    color: black;
+    text-align: center;
+    margin:50px
+}
+.card
+{
+    width: 220px;
+    height: 350px;
+    box-shadow: 4px 8px 4px grey;
+    border-radius: 5px;
+
+}
+.blog-image
+{
+   width: 100%; 
+   border-radius: 5px;
+}
+.card-title
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
